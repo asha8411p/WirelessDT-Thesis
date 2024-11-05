@@ -1,4 +1,4 @@
-# Mathematical Modeling of Ray Tracing
+# Modeling of Ray Tracing
 
 Ray tracing is a powerful rendering technique used in computer graphics to simulate the behavior of light as rays that travel through a scene and interact with surfaces. The basic idea of ray tracing involves tracing the path of rays from a camera (viewer's perspective) into a 3D scene, determining what objects the rays intersect, and calculating the lighting at the intersection points to generate realistic images.
 
