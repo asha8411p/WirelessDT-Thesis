@@ -6,7 +6,7 @@ Here’s a breakdown of how the mathematical modeling of ray tracing works:
 
 ## 1. Ray Representation
 
-A ray $ \mathbf{r}(t) $ can be mathematically represented as a parametric equation of a line:
+A ray $\mathbf{r}(t)$ can be mathematically represented as a parametric equation of a line:
 
 $$
 \mathbf{r}(t) = \mathbf{o} + t \cdot \mathbf{d}
