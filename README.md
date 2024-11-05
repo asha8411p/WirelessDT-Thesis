@@ -14,7 +14,7 @@ Where:
 
 - $\mathbf{o}$ is the ray's origin (the point where the ray starts, typically the camera or the eye).
 - $\mathbf{d}$ is the direction of the ray (a unit vector indicating the direction in which the ray travels).
-- $t$ is the parameter that controls how far along the ray the point lies (i.e., the distance from the origin). As$ t$ increases, the ray extends further from its origin.
+- $t$ is the parameter that controls how far along the ray the point lies (i.e., the distance from the origin). As $t$ increases, the ray extends further from its origin.
 
 ## 2. Ray-Object Intersection
 
