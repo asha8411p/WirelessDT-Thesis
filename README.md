@@ -2,8 +2,6 @@
 
 Ray tracing is a powerful rendering technique used in computer graphics to simulate the behavior of light as rays that travel through a scene and interact with surfaces. The basic idea of ray tracing involves tracing the path of rays from a camera (viewer's perspective) into a 3D scene, determining what objects the rays intersect, and calculating the lighting at the intersection points to generate realistic images.
 
-Here’s a breakdown of how the mathematical modeling of ray tracing works:
-
 ## 1. Ray Representation
 
 A ray $\mathbf{r}(t)$ can be mathematically represented as a parametric equation of a line:
