@@ -108,7 +108,7 @@ Where:
 
 ### c) Total Lighting
 
-The total lighting $ I_{\text{total}}$ at the intersection point is the sum of the ambient, diffuse, and specular components:
+The total lighting $I_{\text{total}}$ at the intersection point is the sum of the ambient, diffuse, and specular components:
 
 $$
 I_{\text{total}} = I_{\text{ambient}} + I_{\text{diffuse}} + I_{\text{specular}}
@@ -126,7 +126,7 @@ $$
 \mathbf{r}_{\text{reflected}} = \mathbf{d} - 2 (\mathbf{d} \cdot \mathbf{n}) \cdot \mathbf{n}
 $$
 
-Where$\mathbf{d}$ is the incoming ray direction and$\mathbf{n}$ is the normal vector at the intersection point.
+where $\mathbf{d}$ is the incoming ray direction and$\mathbf{n}$ is the normal vector at the intersection point.
 
 ### b) Refraction
 
@@ -136,7 +136,7 @@ $$
 \frac{\sin(\theta_1)}{\sin(\theta_2)} = \frac{n_1}{n_2}
 $$
 
-Where$\theta_1$ is the angle of incidence, $\theta_2$ is the angle of refraction, and $ n_1$ and$ n_2$ are the refractive indices of the two media. The direction of the refracted ray can be computed accordingly.
+where $\theta_1$ is the angle of incidence, $\theta_2$ is the angle of refraction, and $ n_1$ and$ n_2$ are the refractive indices of the two media. The direction of the refracted ray can be computed accordingly.
 
 ## 5. Recursive Ray Tracing
 
