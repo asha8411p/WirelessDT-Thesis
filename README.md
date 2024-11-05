@@ -152,4 +152,4 @@ In ray tracing, the main computational steps are:
 - **Reflection and Refraction**: Handle reflective and refractive surfaces by recursively tracing new rays.
 - **Shading**: Apply appropriate shading models (e.g., Lambertian diffuse, Phong specular) to compute the final pixel color.
 
-This mathematical framework is at the core of ray tracing algorithms used in high-quality rendering in graphics, computer games, and visual effects.
+These ray tracing algorithms are widely used in high-quality rendering in graphics, computer games, and visual effects.
