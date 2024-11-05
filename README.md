@@ -56,7 +56,7 @@ $$
 ( \mathbf{r}(t) - \mathbf{p_0} ) \cdot \mathbf{n} = 0
 $$
 
-Substituting$\mathbf{r}(t) = \mathbf{o} + t \cdot \mathbf{d}$ into this equation, we get:
+Substituting $\mathbf{r}(t) = \mathbf{o} + t \cdot \mathbf{d}$ into this equation, we get:
 
 $$
 ( \mathbf{o} + t \cdot \mathbf{d} - \mathbf{p_0} ) \cdot \mathbf{n} = 0
@@ -108,7 +108,7 @@ Where:
 
 ### c) Total Lighting
 
-The total lighting$ I_{\text{total}}$ at the intersection point is the sum of the ambient, diffuse, and specular components:
+The total lighting $ I_{\text{total}}$ at the intersection point is the sum of the ambient, diffuse, and specular components:
 
 $$
 I_{\text{total}} = I_{\text{ambient}} + I_{\text{diffuse}} + I_{\text{specular}}
@@ -136,7 +136,7 @@ $$
 \frac{\sin(\theta_1)}{\sin(\theta_2)} = \frac{n_1}{n_2}
 $$
 
-Where$\theta_1$ is the angle of incidence,$\theta_2$ is the angle of refraction, and$ n_1$ and$ n_2$ are the refractive indices of the two media. The direction of the refracted ray can be computed accordingly.
+Where$\theta_1$ is the angle of incidence, $\theta_2$ is the angle of refraction, and $ n_1$ and$ n_2$ are the refractive indices of the two media. The direction of the refracted ray can be computed accordingly.
 
 ## 5. Recursive Ray Tracing
 
