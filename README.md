@@ -34,7 +34,7 @@ $$
 \| \mathbf{o} + t \cdot \mathbf{d} - \mathbf{C} \|^2 = r^2
 $$
 
-Expanding this equation leads to a quadratic equation in$ t$:
+Expanding this equation leads to a quadratic equation in $t$:
 
 $$
 A t^2 + B t + C = 0
@@ -146,7 +146,7 @@ Ray tracing can be recursive: After finding an intersection, if the surface is r
 
 In ray tracing, the main computational steps are:
 
-- **Ray Equation**: A ray is defined by an origin$\mathbf{o}$ and a direction$\mathbf{d}$.
+- **Ray Equation**: A ray is defined by an origin $\mathbf{o}$ and a direction $\mathbf{d}$.
 - **Ray-Object Intersection**: Find the intersection between rays and objects (e.g., spheres, planes, or other geometric shapes).
 - **Lighting Calculation**: Compute lighting based on the intersection point using ambient, diffuse, and specular components.
 - **Reflection and Refraction**: Handle reflective and refractive surfaces by recursively tracing new rays.
