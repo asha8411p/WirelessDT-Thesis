@@ -135,7 +135,7 @@ Where \( \mathbf{d} \) is the incoming ray direction and \( \mathbf{n} \) is the
 For transparent surfaces, refraction is calculated using Snell’s law:
 
 \[
-\sin(\theta_1) / \sin(\theta_2) = \frac{n_1}{n_2}
+\frac{\sin(\theta_1)}{\sin(\theta_2)} = \frac{n_1}{n_2}
 \]
 
 Where \( \theta_1 \) is the angle of incidence, \( \theta_2 \) is the angle of refraction, and \( n_1 \) and \( n_2 \) are the refractive indices of the two media. The direction of the refracted ray can be computed accordingly.
