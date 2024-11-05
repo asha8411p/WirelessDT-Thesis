@@ -46,7 +46,7 @@ Where:
 - $B = 2 \cdot \mathbf{d} \cdot (\mathbf{o} - \mathbf{C})$
 - $C = (\mathbf{o} - \mathbf{C}) \cdot (\mathbf{o} - \mathbf{C}) - r^2$
 
-Solving this quadratic equation for $t$ gives the points where the ray intersects the sphere. If the discriminant $\Delta = B^2 - 4AC$ is negative, there is no intersection; if$\Delta \geq 0$, the ray intersects the sphere at one or two points.
+Solving this quadratic equation for $t$ gives the points where the ray intersects the sphere. If the discriminant $\Delta = B^2 - 4AC$ is negative, there is no intersection; if $\Delta \geq 0$, the ray intersects the sphere at one or two points.
 
 ### b) Ray-Plane Intersection
 
@@ -62,7 +62,7 @@ $$
 ( \mathbf{o} + t \cdot \mathbf{d} - \mathbf{p_0} ) \cdot \mathbf{n} = 0
 $$
 
-Solving for$ t$:
+Solving for $t$:
 
 $$
 t = \frac{( \mathbf{p_0} - \mathbf{o} ) \cdot \mathbf{n}}{\mathbf{d} \cdot \mathbf{n}}
@@ -126,7 +126,7 @@ $$
 \mathbf{r}_{\text{reflected}} = \mathbf{d} - 2 (\mathbf{d} \cdot \mathbf{n}) \cdot \mathbf{n}
 $$
 
-where $\mathbf{d}$ is the incoming ray direction and$\mathbf{n}$ is the normal vector at the intersection point.
+where $\mathbf{d}$ is the incoming ray direction and $\mathbf{n}$ is the normal vector at the intersection point.
 
 ### b) Refraction
 
@@ -136,7 +136,7 @@ $$
 \frac{\sin(\theta_1)}{\sin(\theta_2)} = \frac{n_1}{n_2}
 $$
 
-where $\theta_1$ is the angle of incidence, $\theta_2$ is the angle of refraction, and $ n_1$ and$ n_2$ are the refractive indices of the two media. The direction of the refracted ray can be computed accordingly.
+where $\theta_1$ is the angle of incidence, $\theta_2$ is the angle of refraction, and $n_1$ and $n_2$ are the refractive indices of the two media. The direction of the refracted ray can be computed accordingly.
 
 ## 5. Recursive Ray Tracing
 
