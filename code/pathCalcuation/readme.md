@@ -17,9 +17,9 @@ When the signal travels directly from the source to the receiving point without 
 **Path formula:**
 Let \( S \) be the signal source, \( R \) be the receiving point, and when there are no obstacles in the environment, the signal propagates in a straight line. The distance of this path is:
 
-\[
-d_{LOS} = \sqrt{(x_R - x_S)^2 + (y_R - y_S)^2 + (z_R - z_S)^2}
-\]
+$$
+d_{\text{LOS}} = \sqrt{(x_R - x_S)^2 + (y_R - y_S)^2 + (z_R - z_S)^2}
+$$
 
 Where \( (x_S, y_S, z_S) \) and \( (x_R, y_R, z_R) \) are the coordinates of the signal source and receiving point, respectively.
 
@@ -27,13 +27,13 @@ Where \( (x_S, y_S, z_S) \) and \( (x_R, y_R, z_R) \) are the coordinates of the
 When a signal encounters a flat or curved surface (such as a wall or ground), it will reflect. The calculation of the reflection path is based on the law of reflection, which states that the angle of incidence is equal to the angle of reflection.
 
 **Reflection path calculation:**
-Let \( I \) be the incident ray, \( R \) be the reflected ray, \( \theta_i \) be the angle of incidence, and \( \theta_r \) be the angle of reflection. The path after reflection \( d_{ref} \) can be calculated as follows:
+Let \( I \) be the incident ray, \( R \) be the reflected ray, \( \theta_i \) be the angle of incidence, and \( \theta_r \) be the angle of reflection. The path after reflection \( d_{\text{ref}} \) can be calculated as follows:
 
-\[
-d_{ref} = \sqrt{(x_R - x_{ref})^2 + (y_R - y_{ref})^2 + (z_R - z_{ref})^2}
-\]
+$$
+d_{\text{ref}} = \sqrt{(x_R - x_{\text{ref}})^2 + (y_R - y_{\text{ref}})^2 + (z_R - z_{\text{ref}})^2}
+$$
 
-Where \( (x_{ref}, y_{ref}, z_{ref}) \) are the coordinates of the reflection point, calculated from the reflection angle and the normal of the reflecting surface.
+Where \( (x_{\text{ref}}, y_{\text{ref}}, z_{\text{ref}}) \) are the coordinates of the reflection point, calculated from the reflection angle and the normal of the reflecting surface.
 
 ### (c) Refraction Propagation
 Refraction occurs when a signal penetrates a medium interface (e.g., a window or other light-transmitting material) and typically follows Snell's Law.
@@ -41,9 +41,9 @@ Refraction occurs when a signal penetrates a medium interface (e.g., a window or
 **Snell's Law:**
 The relationship between the angle of refraction \( \theta_t \) and the angle of incidence \( \theta_i \) is:
 
-\[
+$$
 n_1 \sin(\theta_i) = n_2 \sin(\theta_t)
-\]
+$$
 
 Where:
 - \( n_1 \) and \( n_2 \) are the refractive indices of the incident and refracting media, respectively,
@@ -59,9 +59,9 @@ Scattering occurs when the signal interacts with small objects (e.g., furniture,
 **Scattering model:**  
 Common scattering models include Rayleigh scattering and Mie scattering, which apply to different types of objects and environments. In Ray Tracing, scattering is often simulated by random sampling:
 
-\[
-P_{scattered} = A \cdot e^{-b \cdot \Delta t}
-\]
+$$
+P_{\text{scattered}} = A \cdot e^{-b \cdot \Delta t}
+$$
 
 Where:
 - \( A \) is the scattering intensity,
@@ -74,9 +74,9 @@ Multipath effect refers to the phenomenon where the signal reaches the receiving
 **Multipath model:**  
 For each path, the signal strength and arrival time can be calculated as follows:
 
-\[
-Signal \, Strength = P_0 \cdot d^\alpha \cdot \left( \sum_{i=1}^{N} \alpha_i \cos(\phi_i) \right)
-\]
+$$
+\text{Signal Strength} = P_0 \cdot d^\alpha \cdot \left( \sum_{i=1}^{N} \alpha_i \cos(\phi_i) \right)
+$$
 
 Where:
 - \( P_0 \) is the initial signal strength,
@@ -90,9 +90,9 @@ Signal attenuation plays a critical role in Ray Tracing as it directly impacts p
 
 ### Free-Space Path Loss:
 
-\[
+$$
 L = 20 \log_{10}(d) + 20 \log_{10}(f) - 147.55
-\]
+$$
 
 Where:
 - \( L \) is the path loss (in dB),
@@ -101,9 +101,9 @@ Where:
 
 ### Log-Distance Path Loss:
 
-\[
+$$
 L = L_0 + 10 \cdot n \log_{10}\left( \frac{d}{d_0} \right)
-\]
+$$
 
 Where:
 - \( L_0 \) is the loss at the reference distance \( d_0 \),
