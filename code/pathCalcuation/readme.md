@@ -15,7 +15,7 @@ The core of path calculation is to simulate signal propagation and calculate mul
 When the signal travels directly from the source to the receiving point without encountering any obstacles, it is referred to as direct propagation. This is the simplest path calculation.
 
 **Path formula:**
-Let \( S \) be the signal source, \( R \) be the receiving point, and when there are no obstacles in the environment, the signal propagates in a straight line. The distance of this path is:
+Let \(S\) be the signal source, $R$ be the receiving point, and when there are no obstacles in the environment, the signal propagates in a straight line. The distance of this path is:
 
 $$
 d_{\text{LOS}} = \sqrt{(x_R - x_S)^2 + (y_R - y_S)^2 + (z_R - z_S)^2}
