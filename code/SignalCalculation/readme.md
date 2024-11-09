@@ -67,23 +67,23 @@ Triangulation is a widely used technique for determining the position of a targe
 
 3. **Distance Estimation**: From the signal strength difference, estimate the distance between the target and each base station. The distance $d_i$ between base station $i$ and the target can be found using the inverse of the propagation loss model, for example:
 
-   $$ 
+   $$
    d_i = 10^{\frac{P_{\text{transmitted}} - P_{\text{received},i}}{10n}} \quad \text{(for Log-Distance Path Loss)}
    $$
-
-4. **Position Calculation**: Once the distances $d_1, d_2, d_3$ from the three base stations are determined, use **trilateration** to find the target's position $(x, y)$. Trilateration is a geometric method that uses the distances between the target and the base stations to solve for the unknown coordinates of the target.
+   
+5. **Position Calculation**: Once the distances $d_1, d_2, d_3$ from the three base stations are determined, use **trilateration** to find the target's position $(x, y)$. Trilateration is a geometric method that uses the distances between the target and the base stations to solve for the unknown coordinates of the target.
 
    The trilateration equations are as follows:
    
-   $$ 
+   $$
    (x - x_1)^2 + (y - y_1)^2 = d_1^2 
    $$
-   
-   $$ 
+      
+   $$
    (x - x_2)^2 + (y - y_2)^2 = d_2^2 
    $$
-
-   $$ 
+   
+   $$
    (x - x_3)^2 + (y - y_3)^2 = d_3^2 
    $$
 
