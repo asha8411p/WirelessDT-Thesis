@@ -1,4 +1,4 @@
-## Mathematical Model for Propagation Loss and Signal Strength Estimation
+## Signal Propagation Loss and Signal Strength Estimation
 
 ### 1. Propagation Loss Model
 Propagation loss refers to the attenuation of the signal as it travels through space, due to various environmental factors like distance, obstacles, and interference. The propagation loss is typically modeled using several standard path loss models. The most common models include the **Free-Space Path Loss (FSPL)** model and the **Logarithmic Distance Path Loss** model.
@@ -77,10 +77,12 @@ Triangulation is a widely used technique for determining the position of a targe
    
    $$ 
    (x - x_1)^2 + (y - y_1)^2 = d_1^2 
-   $$  
+   $$
+   
    $$ 
    (x - x_2)^2 + (y - y_2)^2 = d_2^2 
-   $$  
+   $$
+
    $$ 
    (x - x_3)^2 + (y - y_3)^2 = d_3^2 
    $$
@@ -101,7 +103,7 @@ Fingerprinting can be implemented using various matching algorithms, including:
 - **K-Nearest Neighbors (K-NN)**: Find the $k$ closest fingerprints and average their positions to estimate the target’s position.
 - **Weighted Average**: Weight the fingerprints according to their similarity and compute the weighted average of their positions.
 
-### 3. Summary of Positioning Calculation
+### 3. Positioning Calculation
 - **Triangulation** requires multiple base stations with known positions and uses the difference in signal strength to estimate the target's position.
 - **Fingerprinting** creates a signal strength database for a given environment and matches the current signal measurements with that database to infer the target’s position.
 
