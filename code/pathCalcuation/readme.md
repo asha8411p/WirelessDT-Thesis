@@ -21,7 +21,7 @@ $$
 d_{\text{LOS}} = \sqrt{(x_R - x_S)^2 + (y_R - y_S)^2 + (z_R - z_S)^2}
 $$
 
-Where $ (x_S, y_S, z_S) $ and $ (x_R, y_R, z_R) $ are the coordinates of the signal source and receiving point, respectively.
+Where $(x_S, y_S, z_S)$ and $(x_R, y_R, z_R)$ are the coordinates of the signal source and receiving point, respectively.
 
 ### (b) Reflection Propagation
 When a signal encounters a flat or curved surface (such as a wall or ground), it will reflect. The calculation of the reflection path is based on the law of reflection, which states that the angle of incidence is equal to the angle of reflection.
@@ -33,7 +33,7 @@ $$
 d_{\text{ref}} = \sqrt{(x_R - x_{\text{ref}})^2 + (y_R - y_{\text{ref}})^2 + (z_R - z_{\text{ref}})^2}
 $$
 
-Where $ (x_{\text{ref}}, y_{\text{ref}}, z_{\text{ref}}) $ are the coordinates of the reflection point, calculated from the reflection angle and the normal of the reflecting surface.
+Where $(x_{\text{ref}}, y_{\text{ref}}, z_{\text{ref}})$ are the coordinates of the reflection point, calculated from the reflection angle and the normal of the reflecting surface.
 
 ### (c) Refraction Propagation
 Refraction occurs when a signal penetrates a medium interface (e.g., a window or other light-transmitting material) and typically follows Snell's Law.
