@@ -5,6 +5,7 @@
 ### STEP 0: Associate the GitHub account with UE account
 Make sure you already have a GitHub account and have linked your GitHub account to your Unreal Engine account. If not, refer to the official tutorial.
 [How do I link my Unreal Engine account with my Github account?](https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/connect-accounts-c5719351300507/how-do-i-link-my-unreal-engine-account-with-my-github-account-a5720369784347)
+
 How to confirm whether the account is correctly linked you can check from the Application to account, as shown below
 ![Connect the account](./files/Connecttheaccount.png)
 
