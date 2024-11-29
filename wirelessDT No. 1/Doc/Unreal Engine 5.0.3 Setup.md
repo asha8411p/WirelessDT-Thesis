@@ -7,7 +7,7 @@ Make sure you already have a GitHub account and have linked your GitHub account 
 [How do I link my Unreal Engine account with my Github account?](https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/connect-accounts-c5719351300507/how-do-i-link-my-unreal-engine-account-with-my-github-account-a5720369784347)
 
 How to confirm whether the account is correctly linked you can check from the Application to account, as shown below
-![Connect the account](./files/Connecttheaccount.png)
+![Connect the account](./fig/Connecttheaccount.png)
 
 ### Note：
 After completing the associated account, there will be an invitation confirmation in the email, please check
