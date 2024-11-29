@@ -9,6 +9,9 @@ Make sure you already have a GitHub account and have linked your GitHub account 
 How to confirm whether the account is correctly linked you can check from the Application to account, as shown below
 ![Connect the account](./files/Connecttheaccount.png)
 
+### Note：
+After completing the associated account, there will be an invitation confirmation in the email, please check
+
 
 ### STEP 1: Clone WiTracing Unreal Engine Project.
 
