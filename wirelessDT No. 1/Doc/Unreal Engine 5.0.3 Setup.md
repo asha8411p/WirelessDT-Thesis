@@ -6,7 +6,7 @@
 Make sure you already have a GitHub account and have linked your GitHub account to your Unreal Engine account. If not, refer to the official tutorial.
 [How do I link my Unreal Engine account with my Github account?](https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/connect-accounts-c5719351300507/how-do-i-link-my-unreal-engine-account-with-my-github-account-a5720369784347)
 
-![Connect the account](./files/Connect%20the%20account.png "Connect the account")
+![Connect the account](./files/Connecttheaccount.png "Connect the account")
 
 
 ### STEP 1: Clone WiTracing Unreal Engine Project.
