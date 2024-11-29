@@ -6,4 +6,4 @@ Unreal Engine is a private project and is only visible to its subscribers. First
 For the step for account association, please refer to [How do I link my Unreal Engine account with my Github account?](https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/connect-accounts-c5719351300507/how-do-i-link-my-unreal-engine-account-with-my-github-account-a5720369784347)
 
 
-![AAA](/Doc/fig/BuildDebugXML.png)
+![AAA](/Doc/fig/BuildDebugXML.png "xmlDebug")
