@@ -16,6 +16,9 @@ After completing the associated account, there will be an invitation confirmatio
 
 ### STEP 1: Clone WiTracing Unreal Engine Project.
 After associating the accounts, we should have access to our [Unreal Engine Fork](https://github.com/codelzz/UnrealEngine/tree/dev/ue5-witracing) with our built-in WiTracing Engine. Then you can clone the engine code from dev/ue5-witracing branch.
+
+After confirm the authorization part (check the hyperlinks can be seen in front of the relevant documents), clone WirelessDT warehouse: execute the following command in the terminal: 
+git clone https://github.com/codelzz/UnrealEngine.git
 ### Note:
 1. This step requires the developer's permission to accept, you need the developer to invite your email into the group, otherwise you will see a 404 page.
 
