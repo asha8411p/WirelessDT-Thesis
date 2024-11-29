@@ -1,6 +1,7 @@
 # Unreal Engine 5.0.3 Setup
 
 ## Install
+Please make sure that the visual studio download is Microsoft 2022 version and Unreal Engine 5 version is 5.0.3
 
 ### STEP 0: Associate the GitHub account with UE account
 Make sure you already have a GitHub account and have linked your GitHub account to your Unreal Engine account. If not, refer to the official tutorial.
