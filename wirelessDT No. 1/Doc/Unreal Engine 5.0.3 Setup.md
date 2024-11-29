@@ -14,7 +14,7 @@ After completing the associated account, there will be an invitation confirmatio
 
 
 ### STEP 1: Clone WiTracing Unreal Engine Project.
-
+After associating the accounts, we should have access to our [Unreal Engine Fork](https://github.com/codelzz/UnrealEngine/tree/dev/ue5-witracing) with our built-in WiTracing Engine. Then you can clone the engine code from dev/ue5-witracing branch.
 
 ### Note:
 If you suffered from the issue that shows the prohibition for using **setup.bat** as version issule for compiling,
