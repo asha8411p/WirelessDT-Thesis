@@ -2,7 +2,7 @@
 
 ### Step 1: Download the Repository
 ```sh
-https://github.com/codelzz/WirelessDT.git](https://drive.google.com/file/d/1GqdW80Q6eF1428vUqnTjujZy5fJ5J6uT/view?usp=sharing
+https://drive.google.com/file/d/1GqdW80Q6eF1428vUqnTjujZy5fJ5J6uT/view?usp=sharing
 ```
 
 ### Step 2: Compile the Project
