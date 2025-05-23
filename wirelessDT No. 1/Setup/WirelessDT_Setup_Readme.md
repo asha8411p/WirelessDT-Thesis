@@ -2,7 +2,7 @@
 
 ### Step 1: Clone the Repository
 ```sh
-git clone https://github.com/codelzz/WirelessDT.git
+git clone https://github.com/codelzz/WirelessDT.git](https://drive.google.com/file/d/1GqdW80Q6eF1428vUqnTjujZy5fJ5J6uT/view?usp=sharing
 ```
 
 ### Step 2: Compile the Project
