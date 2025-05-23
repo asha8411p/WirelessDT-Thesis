@@ -1,8 +1,8 @@
 ## Running WirelessDT
 
-### Step 1: Clone the Repository
+### Step 1: Download the Repository
 ```sh
-git clone https://github.com/codelzz/WirelessDT.git](https://drive.google.com/file/d/1GqdW80Q6eF1428vUqnTjujZy5fJ5J6uT/view?usp=sharing
+https://github.com/codelzz/WirelessDT.git](https://drive.google.com/file/d/1GqdW80Q6eF1428vUqnTjujZy5fJ5J6uT/view?usp=sharing
 ```
 
 ### Step 2: Compile the Project
