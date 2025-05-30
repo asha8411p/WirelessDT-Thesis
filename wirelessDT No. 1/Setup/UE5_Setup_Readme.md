@@ -100,4 +100,4 @@ To ensure the correct dependencies are installed, follow these steps:
 
 ---
 
-Happy Developing! 🎮
+Happy Developing! :)
