@@ -33,7 +33,7 @@ To ensure the correct dependencies are installed, follow these steps:
 ### 3. Extract the Project Files
 
 1. Download the required executable files:
-   - [Visual Studio Installer EXE](https://drive.google.com/file/d/1bUPm428iqz7NHhr-odVWgWr5wosULWfb/view?usp=sharing)
+   - [SDK EXE](https://drive.google.com/file/d/1bUPm428iqz7NHhr-odVWgWr5wosULWfb/view?usp=sharing)
    - [.NET Runtime EXE](https://drive.google.com/file/d/1SQtCK8G5Zqb4p-IWlxjCzt86Nv0U95Uo/view?usp=sharing)
 
 2. Run both `.exe` files to install the necessary components.
